@@ -1,0 +1,21 @@
+{
+	"name": "ms-app",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "3.0.0rc4",
+		"socket.io": "*",
+		"async": "*",
+		"request": "*",
+		"line-reader": "^0.2.4",
+		"basic-request": "*",
+		"cron": "1.0.4",
+		"stdio": "0.2.3"
+	},
+	"engines": {
+		"node": "0.10.25"
+	},
+	"scripts": {
+		"test": "grunt test",
+		"start": "node api/server.js"
+	}
+}
