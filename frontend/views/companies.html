@@ -1,0 +1,30 @@
+<div class="row">
+
+	<div class="col s12 m4 l3">
+		<ul class="collection">
+			<li class="collection-item avatar" ng-repeat="(key,value) in companies" ng-class="{'orange': '{{activeCompany.name}}' == '{{value.name}}'}">
+				<img src="{{value.icon}}" alt="" class="circle">
+				<h4 >{{value.name}}</h4>
+				<a href="" class="secondary-content" ng-click="showCompany(key)"><i class="mdi-content-send"></i></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="col s12 m8 l9">
+		<div class="section no-pad-bot" id="index-banner">
+			<div class="container">
+				<br><br>
+				<h1 class="header center orange-text">{{activeCompany.name}}</h1>
+				<div class="row center">
+					<img src="{{activeCompany.icon}}" class="responsive-img">
+				</div>
+				<div class="row center">
+					<h5 class="header col s12 light">
+						{{activeCompany.description}}
+					</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
