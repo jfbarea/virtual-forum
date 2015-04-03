@@ -4,42 +4,131 @@ var DATA = {
 		company1: {
 			name: 'Company1',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'
+			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+			acceptsCV: true,
 		},
 		company2: {
 			name: 'Company2',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum condemor a gramenawer papaar papaar pupita está la cosa muy malar amatomaa amatomaa. La caidita me cago en tus muelas torpedo diodeno te voy a borrar el cerito la caidita llevame al sircoo está la cosa muy malar está la cosa muy malar. Se calle ustée pupita la caidita hasta luego Lucas sexuarl papaar papaar fistro a peich a wan la caidita. Amatomaa a wan te voy a borrar el cerito no te digo trigo por no llamarte Rodrigor diodenoo amatomaa. Llevame al sircoo llevame al sircoo caballo blanco caballo negroorl qué dise usteer diodeno. Está la cosa muy malar ese pedazo de por la gloria de mi madre de la pradera. Mamaar jarl te va a hasé pupitaa benemeritaar qué dise usteer por la gloria de mi madre apetecan sexuarl.'
+			description: 'Lorem fistrum condemor a gramenawer papaar papaar pupita está la cosa muy malar amatomaa amatomaa. La caidita me cago en tus muelas torpedo diodeno te voy a borrar el cerito la caidita llevame al sircoo está la cosa muy malar está la cosa muy malar. Se calle ustée pupita la caidita hasta luego Lucas sexuarl papaar papaar fistro a peich a wan la caidita. Amatomaa a wan te voy a borrar el cerito no te digo trigo por no llamarte Rodrigor diodenoo amatomaa. Llevame al sircoo llevame al sircoo caballo blanco caballo negroorl qué dise usteer diodeno. Está la cosa muy malar ese pedazo de por la gloria de mi madre de la pradera. Mamaar jarl te va a hasé pupitaa benemeritaar qué dise usteer por la gloria de mi madre apetecan sexuarl.',
+			acceptsCV: false,
 		},
 		company3: {
 			name: 'Company3',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum diodeno va usté muy cargadoo jarl. Te va a hasé pupitaa de la pradera te va a hasé pupitaa te voy a borrar el cerito sexuarl apetecan. Llevame al sircoo va usté muy cargadoo diodenoo pupita apetecan hasta luego Lucas torpedo tiene musho peligro mamaar quietooor pecador. Te va a hasé pupitaa tiene musho peligro benemeritaar diodeno. Caballo blanco caballo negroorl de la pradera pecador me cago en tus muelas sexuarl. A wan sexuarl mamaar de la pradera pecador torpedo no puedor sexuarl.'
+			description: 'Lorem fistrum diodeno va usté muy cargadoo jarl. Te va a hasé pupitaa de la pradera te va a hasé pupitaa te voy a borrar el cerito sexuarl apetecan. Llevame al sircoo va usté muy cargadoo diodenoo pupita apetecan hasta luego Lucas torpedo tiene musho peligro mamaar quietooor pecador. Te va a hasé pupitaa tiene musho peligro benemeritaar diodeno. Caballo blanco caballo negroorl de la pradera pecador me cago en tus muelas sexuarl. A wan sexuarl mamaar de la pradera pecador torpedo no puedor sexuarl.',
+			acceptsCV: true,
 		},
 		company4: {
 			name: 'Company4',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum tiene musho peligro sexuarl caballo blanco caballo negroorl hasta luego Lucas condemor por la gloria de mi madre por la gloria de mi madre. Ese pedazo de ese hombree jarl no te digo trigo por no llamarte Rodrigor benemeritaar condemor papaar papaar a gramenawer pupita. Sexuarl no te digo trigo por no llamarte Rodrigor diodeno quietooor a gramenawer tiene musho peligro se calle ustée. De la pradera apetecan está la cosa muy malar está la cosa muy malar ese que llega no puedor ese hombree al ataquerl diodeno diodenoo. Benemeritaar la caidita ese pedazo de jarl.'
+			description: 'Lorem fistrum tiene musho peligro sexuarl caballo blanco caballo negroorl hasta luego Lucas condemor por la gloria de mi madre por la gloria de mi madre. Ese pedazo de ese hombree jarl no te digo trigo por no llamarte Rodrigor benemeritaar condemor papaar papaar a gramenawer pupita. Sexuarl no te digo trigo por no llamarte Rodrigor diodeno quietooor a gramenawer tiene musho peligro se calle ustée. De la pradera apetecan está la cosa muy malar está la cosa muy malar ese que llega no puedor ese hombree al ataquerl diodeno diodenoo. Benemeritaar la caidita ese pedazo de jarl.',
+			acceptsCV: false,
 		},
 		company5: {
 			name: 'Company5',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'
+			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+			acceptsCV: true,
 		},
 		company6: {
 			name: 'Company6',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'
+			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+			acceptsCV: false,
 		},
 		company7: {
 			name: 'Company7',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'
+			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+			acceptsCV: true,
 		},
 		company8: {
 			name: 'Company8',
 			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'
+			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+			acceptsCV: true,
 		},
-	}
+	},
+	SCHOOLS: {
+		etsi_aeronautica_y_del_espacio : 'ETSI Aeronaútica y del Espacio',
+        etsi_montes_forestal_y_del_medio_natural : 'ETSI Montes, Forestal y del Medio Natural',
+        ets_de_arquitectura : 'ETS de Arquitectura',
+        etsi_aeronauticos : 'ETSI Aeronáuticos',
+        etsi_agronomos : 'ETSI Agrónomos',
+        etsi_caminos_canales_y_puertos : 'ETSI Caminos, Canales y Puertos',
+        etsi_montes : 'ETSI Montes',
+        etsi_navales : 'ETSI Navales',
+        etsi_telecomunicacion : 'ETSI Telecomunicación',
+        facultad_de_ciencias_de_la_actividad_fisica_y_del_deporte_inef : 'Facultad de Ciencias de la Actividad Física y del Deporte (INEF)',
+        ets_de_edificacion : 'ETS de Edificación',
+        euit_aeronautica : 'EUIT Aeronáutica',
+        euit_agricola : 'EUIT Agrícola',
+        euit_forestal : 'EUIT Forestal',
+        centro_de_investigacion_del_transporte_transyt : 'Centro de Investigación del Transporte (TRANSyT)',
+        centro_de_estudios_e_inv_para_la_gestion_de_riesgos_agrarios_y_medioamb : 'Centro de Estudios e Inv. para la Gestión de Riesgos Agrarios y Medioamb.',
+        instituto_de_sistemas_optoelectronicos_y_microtecnologia : 'Instituto de Sistemas Optoelectrónicos y Microtecnología',
+        instituto_de_energia_solar : 'Instituto de Energía Solar',
+        instituto_de_ciencias_de_la_educacion_ice : 'Instituto de Ciencias de la Educación (ICE)',
+        centro_de_materiales_y_dispositivos_avanzados_para_tic_cemdatic : 'Centro de Materiales y Dispositivos Avanzados para TIC (CEMDATIC)',
+        etsi_industriales : 'ETSI Industriales',
+        etsi_de_minas_y_energia : 'ETSI de Minas y Energía',
+        etsi_diseno_industrial : 'ETSI Diseño Industrial',
+        etsi_civil : 'ETSI Civil',
+        centro_de_electronica_industrial_cei : 'Centro de Electrónica Industrial (CEI)',
+        instituto_de_fusion_nuclear : 'Instituto de Fusión Nuclear',
+        centro_de_automatica_y_robotica_car_centro_mixto_upm_csic : 'Centro de Automática y Robótica (CAR). Centro Mixto UPM-CSIC',
+        ets_de_ingenieros_informaticos : 'ETS de Ingenieros Informáticos',
+        centro_domotica_integral_cedint : 'Centro domótica Integral (CEDINT)',
+        centro_de_inv_en_biotecnologia_y_genomica_de_plantas_cbgp : 'Centro de Inv. en Biotecnología y Genómica de Plantas (CBGP)',
+        insituto_de_microgravedad_ignacio_da_riva : 'Insituto de Microgravedad "Ignacio Da Riva"',
+        e_usoc : 'E-USOC',
+        cesvima : 'CESVIMA',
+        etsi_en_topografia_geodesia_y_cartografia : 'ETSI en Topografía, Geodesia y Cartografía',
+        etsi_de_sistemas_informaticos : 'ETSI de Sistemas Informáticos',
+        etsi_y_sistemas_de_telecomunicacion : 'ETSI y Sistemas de Telecomunicación',
+        centro_laser : 'Centro Láser',
+        instituto_de_investigacion_del_automovil : 'Instituto de Investigación del Automóvil',
+        centro_de_investigacion_en_tecnologias_del_sw_y_sist_multimedia_citsem : 'Centro de Investigación en Tecnologías del SW y Sist. Multimedia (CITSEM)',
+        centro_superior_de_diseno_de_moda_de_madrid : 'Centro Superior de Diseño de Moda de Madrid',
+        facultad_de_bellas_artes : 'Facultad de Bellas Artes',
+        facultad_de_ciencias_biologicas : 'Facultad de Ciencias Biológicas',
+        facultad_de_ciencias_de_la_documentacion : 'Facultad de Ciencias de la Documentación',
+        facultad_de_ciencias_de_la_informacion : 'Facultad de Ciencias de la Información',
+        facultad_de_ciencias_economicas_y_empresariales : 'Facultad de Ciencias Económicas y Empresariales',
+        facultad_de_ciencias_fisicas : 'Facultad de Ciencias Físicas',
+        facultad_de_ciencias_geologicas : 'Facultad de Ciencias Geológicas',
+        facultad_de_ciencias_matematicas : 'Facultad de Ciencias Matemáticas',
+        facultad_de_ciencias_politicas_y_sociologia : 'Facultad de Ciencias Políticas y Sociología',
+        facultad_de_ciencias_quimicas : 'Facultad de Ciencias Químicas',
+        facultad_de_comercio_y_turismo : 'Facultad de Comercio y Turismo',
+        facultad_de_derecho : 'Facultad de Derecho',
+        facultad_de_educacion_centro_de_formacion_del_profesorado : 'Facultad de Educación � Centro de Formación del Profesorado',
+        facultad_de_enfermeria_fisioterapia_y_podologia : 'Facultad de Enfermería, Fisioterapia y Podología',
+        facultad_de_estudios_estadisticos : 'Facultad de Estudios Estadísticos',
+        facultad_de_farmacia : 'Facultad de Farmacia',
+        facultad_de_filologia : 'Facultad de Filología',
+        facultad_de_filosofia : 'Facultad de Filosofía',
+        facultad_de_geografia_e_historia : 'Facultad de Geografía e Historia',
+        facultad_de_informatica : 'Facultad de Informática',
+        facultad_de_medicina : 'Facultad de Medicina',
+        facultad_de_odontologia : 'Facultad de Odontología',
+        facultad_de_optica_y_optometria : 'Facultad de óptica y Optometría',
+        facultad_de_psicologia : 'Facultad de Psicología',
+        facultad_de_trabajo_social : 'Facultad de Trabajo Social',
+        facultad_de_veterinaria : 'Facultad de Veterinaria',
+        otros_centros : 'Otros Centros',
+	},
 };
+(function(){
+	// Initialize collapse button
+	$(".button-collapse").sideNav();
+	// Initialize collapsible (uncomment the line below if you use the dropdown variation)
+	$('.collapsible').collapsible();
+
+
+	// Show sideNav
+	$('.button-collapse').sideNav('show');
+	// Hide sideNav
+	$('.button-collapse').sideNav('hide');
+});
