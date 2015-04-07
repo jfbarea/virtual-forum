@@ -1,8 +1,33 @@
+/*Requires */
+
 var express = require('express');
-var http = require('http');
 var path = require('path');
+var http = require('http');
+var multer = require('multer');
+
+/*Global variables */
+var routes = {
+	cv: require('./routes/cv.js')
+};
 
 var app = express();
+var done = false;
+
+/*Configure the multer.*/
+
+app.use(multer({
+	dest: './uploads/',
+	rename: function (fieldname, filename) {
+		return filename+Date.now();
+	},
+	onFileUploadStart: function (file) {
+		console.log(file.originalname + ' is starting ...');
+	},
+	onFileUploadComplete: function (file) {
+		console.log(file.fieldname + ' uploaded to  ' + file.path);
+		done=true;
+	}
+}));
 
 app.configure(function(){
 
@@ -16,6 +41,11 @@ app.configure(function(){
 	app.use(express.static(path.join(__dirname, '..', 'frontend')));
 });
 
+
+app.post('/api/uploadCV/', function (request, response) {
+	console.log(request.files);
+	response.send(204);
+});
 
 // Server creation
 

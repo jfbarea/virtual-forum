@@ -1,16 +1,21 @@
 <div class="row">
-	<form class="col s12">
+	<form class="col s12" 
+		id="uploadForm"
+		enctype="mutipart/form-data"
+		action="/api/uploadCV/"
+		method="post"
+	>
 		<div class="row">
 			<div class="input-field col s6">
-				<input id="first_name" type="text" class="validate">
+				<input name="first_name" type="text" class="validate">
 				<label for="first_name">Nombre</label>
 			</div>
 			<div class="input-field col s6">
-				<input id="last_name" type="text" class="validate">
+				<input name="last_name" type="text" class="validate">
 				<label for="last_name">Apellidos</label>
 			</div>
 			<div class="input-field col s6">
-				<input id="dni" type="number" class="validate">
+				<input name="dni" type="number" class="validate">
 				<label for="dni">DNI</label>
 			</div>
 		</div>
@@ -19,13 +24,10 @@
 				<option value="" disabled selected>Elige tu centro de estudios</option>
 				<option ng-repeat= "(key,school) in schools" value="{{key}}">{{school}}</option>
 			</select>
-			<div class="file-field input-field">
-				<span class="file-path validate" > </span>
-				<div class="btn">
-					<span>File</span>
-					<input type="file" />
-				</div>
+			<div class="input-field">
+				<input type="file" name="CV">
 			</div>
+			<input class='btn' type="submit" value="Subir CV" name="submit">
 		</div>
 	</form>
 </div>
