@@ -31,7 +31,7 @@ if(!empty($_POST['kpmg'])){$kpmg = $_POST['kpmg'];}else{$kpmg = '';}
 //$hp = $_POST['hp'];
 
 //Variables para subir el fichero del CV
-$destino = '../cvs/';
+$destino = 'cvs/';
 $tamano = $_FILES [ 'fichero' ][ 'size' ];    //tamaño
 $fichero = $_FILES [ 'fichero'] ['name'];     //nombre
 $tipo_archivo = $_FILES ['fichero'] ['type']; //tipo
@@ -46,10 +46,6 @@ if( ($nombre == '') || ($apellidos == '')||
 else if( $tamano > 3145728) //Tamaño mayor de 3 MB
 {	
 	echo "<h2>El tama&#241;o es superior al permitido (3MB)</h2>" ;
-}
-else if( !strpos($tipo_archivo,"pdf")) //El archivo no es un pdf
-{
-    echo "<h2>El archivo tiene que tener formato pdf</h2>";
 }
 else
 {
