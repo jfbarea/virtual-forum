@@ -5,10 +5,7 @@ var path = require('path');
 var http = require('http');
 var multer = require('multer');
 
-/*Global variables */
-var routes = {
-	cv: require('./routes/cv.js')
-};
+
 
 var app = express();
 var done = false;
