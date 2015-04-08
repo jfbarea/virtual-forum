@@ -5,8 +5,6 @@ var path = require('path');
 var http = require('http');
 var multer = require('multer');
 
-
-
 var app = express();
 var done = false;
 
