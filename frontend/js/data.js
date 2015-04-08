@@ -76,7 +76,7 @@ var DATA = {
 		company23: {
 			name: 'KIC InnoEnergy',
 			icon: '/images/kic.png',
-			description: [],
+			description: ['KIC InnoEnergy Master School is a joint programme coordinated by eleven leading technical universities and two top European business schools. Our seven master programmes in sustainable energy engineering are carefully designed to provide our students with a unique combination of technical and entrepreneurial skills.','If you are driven by a ‘can do attitude’ and you are passionate about energy, innovation and entrepreneurship, the KIC InnoEnergy Master School will transform your talent into new technologies and ventures.','Be ready to enter an international community of experts coming from all parts of the energy sector and to pursue not just a career, but as a life changing experience that will allow you to make an impact on the future of sustainable energy.','Discover all the opportunities offered by our European Master School: ','§  Focus on sustainable energy engineering ','§  Double degree from top-ranked technical universities','§  Entrepreneurship training at top European business schools','§  Join a European community that goes well beyond education','§  Scholarship opportunities for top applicants'],
 			acceptsCV: true,
 		},
 		company24: {
