@@ -1,52 +1,118 @@
 
 var DATA = {
 	COMPANIES: {
-		company1: {
+		company11: {
 			name: 'BEST',
 			icon: '/images/BESTlogo.png',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+			description: ['Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'],
 			acceptsCV: true,
 		},
-		company2: {
-			name: 'Company2',
-			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum condemor a gramenawer papaar papaar pupita está la cosa muy malar amatomaa amatomaa. La caidita me cago en tus muelas torpedo diodeno te voy a borrar el cerito la caidita llevame al sircoo está la cosa muy malar está la cosa muy malar. Se calle ustée pupita la caidita hasta luego Lucas sexuarl papaar papaar fistro a peich a wan la caidita. Amatomaa a wan te voy a borrar el cerito no te digo trigo por no llamarte Rodrigor diodenoo amatomaa. Llevame al sircoo llevame al sircoo caballo blanco caballo negroorl qué dise usteer diodeno. Está la cosa muy malar ese pedazo de por la gloria de mi madre de la pradera. Mamaar jarl te va a hasé pupitaa benemeritaar qué dise usteer por la gloria de mi madre apetecan sexuarl.',
+		company12: {
+			name: 'Amadeus',
+			icon: '/images/amadeus.png',
+			description: ['Amadeus provides the technology which keeps the travel sector moving - from initial search to making a booking, from pricing to ticketing, from managing reservations to managing check-in and departure processes. Our ambition is to facilitate the entire travel journey from door-to-door, in the process improving the travel experience for hundreds of millions of people every year. We do this by joining up and connecting key players in the travel industry: travel agencies, corporations, airlines, airports, hotels, railways and more. We give those companies the tools to serve travelers better and to manage their own business more effectively. Amadeus is at the heart global travel industry. Our people, our technology and our innovation are dedicated to working with our customers and partners to shape the future of travel.',' Our ambition is to work with our customers and partners to shape the future of travel. Fulfilling this ambition requires the team work of top travel trade talent. For this reason we offer international travel industry jobs, internships, and development opportunities.','Employees at Amadeus have the opportunity to work at international jobs in the travel industry around the world. Amadeus careers give candidates the chance to advance professionally and make a name for themselves in the global job market.',' A career at Amadeus also gives travel professionals the opportunity to work abroad in a truly international job capacity.',' If you want to shape your career and the future of travel, Amadeus is the place for you.'],
 			acceptsCV: false,
 		},
-		company3: {
-			name: 'Company3',
-			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum diodeno va usté muy cargadoo jarl. Te va a hasé pupitaa de la pradera te va a hasé pupitaa te voy a borrar el cerito sexuarl apetecan. Llevame al sircoo va usté muy cargadoo diodenoo pupita apetecan hasta luego Lucas torpedo tiene musho peligro mamaar quietooor pecador. Te va a hasé pupitaa tiene musho peligro benemeritaar diodeno. Caballo blanco caballo negroorl de la pradera pecador me cago en tus muelas sexuarl. A wan sexuarl mamaar de la pradera pecador torpedo no puedor sexuarl.',
+		company13: {
+			name: 'Avaanza',
+			icon: '/images/avaanza.png',
+			description: [''],
 			acceptsCV: true,
 		},
-		company4: {
-			name: 'Company4',
-			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum tiene musho peligro sexuarl caballo blanco caballo negroorl hasta luego Lucas condemor por la gloria de mi madre por la gloria de mi madre. Ese pedazo de ese hombree jarl no te digo trigo por no llamarte Rodrigor benemeritaar condemor papaar papaar a gramenawer pupita. Sexuarl no te digo trigo por no llamarte Rodrigor diodeno quietooor a gramenawer tiene musho peligro se calle ustée. De la pradera apetecan está la cosa muy malar está la cosa muy malar ese que llega no puedor ese hombree al ataquerl diodeno diodenoo. Benemeritaar la caidita ese pedazo de jarl.',
+		company14: {
+			name: 'BBVA',
+			icon: '/images/bbva.png',
+			description: ['La historia de BBVA es la historia de muchas personas que, desde mediados del siglo XIX, han formado parte de más de un centenar de entidades financieras que se han ido uniendo para ampliar su proyecto empresarial.','Hoy, en BBVA trabajamos por un futuro mejor para las personas, buscando relaciones duraderas con nuestros clientes que cambian la forma de ver el negocio. Como resultado de este trabajo, BBVA se ha convertido en todo un referente mundial y en uno de los bancos más reconocidos y premiados.','BBVA apuesta firmemente por el futuro y está siendo pionero en la adaptación a las necesidades que impone un mercado cada vez más global, en definitiva, a la banca del siglo XXI.','Una trayectoria de más de 150 años avala esta apuesta.'],
 			acceptsCV: false,
 		},
-		company5: {
-			name: 'Company5',
-			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+		company15: {
+			name: 'Deloitte',
+			icon: '/images/deloitte.png',
+			description: ['Deloitte ofrece multitud de oportunidades en sus distintas líneas de negocio, grupos sectoriales y oficinas. La incorporación es con contrato laboral o con prácticas para aquellos alumnos que aún están estudiando. La integración de nuestras líneas de servicio, te ayudará a desarrollar soluciones de alto valor añadido para nuestros clientes, líderes en sus respectivos sectores. En Deloitte, un excelente equipo de profesionales te ayudará a crecer y desarrollarte. Encontrarás el ambiente de trabajo que a ti te gusta.'],
 			acceptsCV: true,
 		},
-		company6: {
-			name: 'Company6',
-			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+		company16: {
+			name: 'EY',
+			icon: '/images/EY.png',
+			description: ['En EY te ayudamos a alcanzar tu potencial y a conseguir tus objetivos, tanto personales como profesionales. Te ofrecemos experiencias gratificantes y retadoras que te mantienen motivado, dentro de un ambiente de integridad y trabajo en equipo, en algunas de las empresas más importantes del mundo.','Desde el primer día, te animamos a responsabilizarte de tu carrera y te damos apoyo en tu desarrollo profesional, con todas las herramientas que tenemos a nuestra disposición.','Contarás con la flexibilidad que necesitas para dedicar tu tiempo a lo que te importa, tanto en el trabajo como en tu vida personal. En EY, puedes ser tú mismo y expresar tu punto de vista con energía y entusiasmo, independientemente de la oficina del mundo en la que te encuentres','Es como marcas la diferencia'],
 			acceptsCV: false,
 		},
-		company7: {
-			name: 'Company7',
+		company17: {
+			name: 'efron Consulting',
+			icon: '/images/efron.png',
+			description: ['DESCRIPCIÓN:','Efron Consulting es una compañía de Consultoría, Tecnología y Outsourcing, que cuenta en la actualidad con más de 600 profesionales trabajando en proyectos nacionales e internacionales en los Sectores Financiero, Sanitario, Telecomunicaciones, Industria y Administración Pública, con oficinas en España (Madrid y Barcelona), Estados Unidos (Boston), Colombia (Bogotá y Medellín) y México (México DF y Santiago de Querétaro).','NUESTROS VALORES:','CALIDAD: Apostamos por los profesionales.  Nuestros servicios resuelven de manera sencilla, rápida y transparente las necesidades de nuestros clientes.Efron Consulting destaca por el elevado perfil técnico de su equipo humano.','COMPROMISO: Combinando Tecnología, Organización y Procesos de Negocio, apostamos por la especialización para ofrecer Valor en un sector de gran competitividad.Nuestro compromiso es con la eficiencia,  la innovación y la calidad.','PRINCIPIOS CORPORATIVOS:  ','- Profesionalidad y Compromiso','- La Calidad como Principio','- Centrados en elevar el grado de satisfacción de nuestros Clientes','- Búsqueda de la Excelencia','- Nuestros empleados son nuestro mayor valor','- En constante actualización tecnológica','OBJETIVOS:','- Aumentar el grado de satisfacción de nuestros clientes.','- Desarrollar con eficacia los procesos y actividades durante la prestación de los servicios.','- Realizar un exhaustivo seguimiento del nivel de respuesta de Efron Consulting ante posibles incidencias/reclamaciones de sus clientes.'],
+			acceptsCV: true,
+		},
+		company18: {
+			name: 'EOI',
+			icon: '/images/eoi.png',
+			description: ['Quiénes somos:','Te presentamos nuestra Escuela y nuestros programas máster para recién titulados. Llevamos 60años  formando a personas que hoy están ocupando puestos de responsabilidad en multinacionales, empresas, asociaciones… y seguimos evolucionando con unos programas adaptados a tus necesidades y a las necesidades de las empresas con las que trabajarás.','Qué buscamos:','Buscamos a los directivos y gestores de empresas del mañana. Se acerca el momento en el que cerrarás con éxito otra etapa, tu etapa universitaria. Y no podemos más que felicitarte: ¡¡enhorabuena!!','¿Has pensado qué hacer después?','¿Has pensado qué hacer ahora?','Qué ofrecemos:','Ofrecemos una formación de postgrado adecuada a tus necesidades, desde programas líderes en Gestión Empresarial hasta programas altamente especializados en Medioambiente y Sostenibilidad, en su modalidad presencial u online y siempre con las metodologías de trabajo más innovadoras. ','Una formación que está:','CERCA DE LA EMPRESA','Nuestros programas se adaptan constantemente a las necesidades de las empresas. Queremos que aprendas exactamente lo que necesitarás en tu puesto de trabajo.','CERCA DEL MUNDO','Contamos con profesores visitantes internacionales que, junto con tus propios compañeros procedentes de muy diversos países, te sumergirán en un aprendizaje global. Nuestros postgrados cuentan con un studytryp y te damos la oportunidad de realizar algunos de nuestros másters íntegramente en inglés o, si lo prefieres, algunas asignaturas.','CERCA DE TI','»	Cuando termines tu máster de postgrado, te ofrecemos la posibilidad de realizar prácticas remuneradas en importantes empresas. ¿Qué mejor forma de entrar en el mercado laboral?','»	Podrás acceder a una exclusiva bolsa de empleo, a través de nuestro servicio de Carreras Profesionales, que colabora más de 2.000 empresas.','»	Sabemos que plantearte seguir estudiando implica un fuerte esfuerzo económico. Precisamente porque creemos que el dinero no debe condicionar tu futuro presente, ponemos a tu disposición un amplio programa de becas y ayudas económicas.'],
+			acceptsCV: true,
+		},
+		company19: {
+			name: 'ESIC',
+			icon: '/images/esic.png',
+			description: ['ESIC Business & Marketing School, fundada en el año 1965 por la institución religiosa de los Sacerdotes del Corazón de Jesús (Padres Reparadores), es la Escuela de Negocios líder en la formación en Empresa y Marketing en España gracias a su alto grado de especialización.','ESIC responde a las necesidades de la empresa y de su entorno competitivo formando profesionales capaces de analizar, reflexionar, decidir y actuar responsablemente en todas las áreas de la empresa, en cualquier nivel jerárquico y en cualquier ámbito geográfico, gracias a los programas, que en constante evolución ofrece en marketing, dirección empresarial, comunicación, recursos humanos, finanzas, entornos digitales, comercio internacional, investigación de mercados, etc.','ESIC está presente en 9 ciudades de la geografía española: Madrid, Valencia, Barcelona, Navarra, Zaragoza, Bilbao, Sevilla, Málaga y Granada. También dispone de dos centros en Brasil, uno en la ciudad de Curitiba y otro en Brusque. Tiene firmados importantes acuerdos y convenios de colaboración con entidades y organismos nacionales e internacionales, tanto nivel académico como institucional, que contemplan intercambios de alumnos y profesores. Cuenta con 5 áreas: ','Área de Grado Grados Oficiales, Privados y Dobles Titulaciones.','Área de Postgrado conprogramas MBA (junior, executive y en inglés), másteres especializados, universitarios y programas superiores.','Área Executivecon abiertos para directivos y formación a medida para empresas. ','ESIC Editorial con un fondo editorial que ofrece a estudiantes y profesionales libros, manuales y publicaciones sobre investigación y divulgación de todos los temas relacionados con la empresa','ESIC Idiomas formación en lenguas extranjeras.'],
+			acceptsCV: true,
+		},
+		company20: {
+			name: 'everis',
+			icon: '/images/everis.png',
+			description: ['everisan NTT DATA Company es una consultora multinacional que ofrece soluciones de negocio, estrategia, desarrollo y mantenimiento de aplicaciones tecnológicas, y outsourcing. La compañía, que desarrolla su actividad en los sectores de telecomunicaciones, entidades financieras, industria, utilities, energía, administración pública y sanidad, alcanzó una facturación de 605 millones de euros en el último ejercicio fiscal. En la actualidad, cuenta con 10.600 profesionales distribuidos en sus oficinas y centros de alto rendimiento en 13 países. ','La consultora pertenece al grupo NTT DATA, la sexta compañía de servicios IT del mundo, con 70.000 profesionales y presencia en Asia-Pacífico, Oriente Medio, Europa, Latinoamérica y Norteamérica. La integración enNTT DATApermite a everis ampliar las soluciones y servicios para sus clientes, aumenta sus capacidades, recursos tecnológicos, geográficos y financieros y le ayuda a dar las respuestas más innovadoras a sus clientes… … y sobre todo más talento y nuevas oportunidades. Somos más grandes. Somos más globales. Somos más everis.'],
+			acceptsCV: true,
+		},
+		company21: {
+			name: 'Fundación Universidad - Empresa',
+			icon: '/images/fue.png',
+			description: ['La Fundación Universidad–Empresa es una institución sin ánimo de lucro que aúna a las diecisiete Universidades públicas y privadas con sede en la Comunidad de Madrid y a las empresas madrileñas, a través de la Cámara Oficial de Comercio e Industria. ','Si a lo largo de nuestra trayectoria nos hemos preocupado siempre, y de manera muy especial, por poner en marcha programas y acciones que faciliten la incorporación efectiva de los universitarios al mercado laboral, la actual situación de desempleo nos ha llevado a trabajar con más intensidad en todo lo relacionado con el empleo y la empleabilidad de los jóvenes. ','Y lo hemos hecho partiendo de lo que llamamos DEEP LINKING: escuchando y entendiendo las necesidades reales de los jóvenes, de las empresas y de las universidades, para poder proponer las soluciones más adecuadas y efectivas.'],
+			acceptsCV: true,
+		},
+		company22: {
+			name: 'Ibermática',
+			icon: '/images/ibermatica.png',
+			description: ['Con más de 40 años de actividad en el sector de las TIC, Ibermática impulsa un proyecto empresarial comprometido con el desarrollo social, la innovación y la competitividad. Actualmente agrupa a más de 3.000 profesionales y representa un volumen de negocio próximo a los 230 millones de euros. Dispone de 25 centros operativos repartidos en los mercados de España, Portugal, Andorra, Argentina, Brasil, Chile, Colombia, México, Perú y Estados Unidos. Su trayectoria empresarial se ha caracterizado siempre por una reconocida solvencia financiera y solidez accionarial. Sus principales accionista son: ProA Capital, KutxaBank, O.N.C.E. y el equipo directivo. Nuestro compromiso con la calidad y la eficiencia nos impulsa a la búsqueda permanente de la excelencia. La actividad que desarrollamos se caracteriza por su bajo impacto medioambiental; a pesar de ello, la sostenibilidad es una de nuestras preocupaciones a la hora de organizar y diseñar nuestros procesos.'],
+			acceptsCV: true,
+		},
+		company23: {
+			name: 'KIC InnoEnergy',
 			icon: '/images/company-logo.jpg',
 			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
 			acceptsCV: true,
 		},
-		company8: {
-			name: 'Company8',
-			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+		company24: {
+			name: 'KPMG',
+			icon: '/images/kpmg.png',
+			description: ['¿Eres de la generación KPMG?','Si quieres averiguarlo, sigue leyendo.','No te vamos a contar aquí que hacemos, ni quiénes somos, ni que servicios prestamos, ni los mercados en que operamos, ni quienes son nuestros principales clientes, ni nuestro enfoque sectorial, ni nuestros programas internacionales, ni nuestra red global, ni siquiera cuantos empleados somos,  ni los programas de talento, formación y desarrollo que podemos ofrecerte, ni nuestro enfoque multidisciplinar, ni nuestra responsabilidad corporativa…','¿Por qué no? Porque todo eso lo tienes al alcance de la mano, a un solo click.','Las organizaciones las hacen las personasque trabajan en ellas. Y de eso es de lo que te queremos hablar, de los profesionales que formamos KPMG. Ese es nuestro valor añadido. El talento, el conocimiento, el compromiso, la inquietud, la creatividad y la capacidad de innovación de las personas que día a día en KPMG hacemos posible que las grandes compañías encuentren respuesta a sus necesidades. ','Las personas son la clave de nuestro éxito y los jóvenes son el futuro de nuestra firma y los principales actores del cambio que está viviendo el mundo. Por eso cada año apostamos por incorporar jóvenes que reúnan esas características que nos hacen diferentes, por las que nuestros clientes depositan su confianza en nosotros, para que rodeados de los profesionales que ya formamos KPMG crezcan, aprendan y se reinventen cada día. ','¿Y cuáles son esas características? Personas con talento conscientes de que el talento también requiere dedicación y esfuerzo para alcanzar sus objetivos; personas capaces de trabajar sus propias habilidades para mejorar día a día; personas que quieran seguir aprendiendo, creciendo y asumiendo retos; personas que sepan aprovechar las oportunidades al máximo y que sepan hasta donde quieren llegar. Porque en KPMG, el limite te lo pones tú. ','Te invitamos a que nos conozcas y tengas la oportunidad de ver cómo somos los profesionales que hacemos posible el reto de seguir siendo una de las empresas más valoradas para trabajar. ','PORQUE COMPARTIMOS VALORES Y FUTURO. Te esperamos.'],
+			acceptsCV: true,
+		},
+		company25: {
+			name: 'Oficina Española de Patentes y Marcas',
+			icon: '/images/oepm.png',
+			description: ['La Oficina Española de Patentes y Marcas (OEPM) es un Organismo Autónomo del Ministerio de Industria, Energía y Turismo que impulsa y apoya el desarrollo tecnológico y económico otorgando protección jurídica a las distintas modalidades de propiedad industrial mediante la concesión de patentes y modelos de utilidad (invenciones); diseños industriales (creaciones de forma); marcas y nombres comerciales (signos distintivos) y títulos de protección de las topografías de productos semiconductores. Asimismo, difunde la información relativa a las diferentes formas de protección de la propiedad industrial.'],
+			acceptsCV: true,
+		},
+		company26: {
+			name: 'Orange',
+			icon: '/images/orange.png',
+			description: ['España es el segundo mercado del grupo Orange, uno de los principales operadores de telecomunicaciones del mundo con más de 231 millones de clientes.','En España somos el operador alternativo de referencia y uno de los principales inversores extranjeros en la industria de telecomunicaciones, con más de 15.000 millones de euros de inversión acumulada.','Más de 13,7 millones de clientes (12.238.000 de telefonía móvil y 1.512.000 de banda ancha fija) confían en nosotros.'],
+			acceptsCV: true,
+		},
+		company27: {
+			name: 'PwC',
+			icon: '/images/pwc.png',
+			description: ['Nombre de la empresa: PwC','Sede Social: Pº Castellana, 259.B 28046 Madrid','Sector: Servicios profesionales: Auditoria, Consultoría de Negocio, Transacciones y Asesoramiento Fiscal y Legal.','Número de Trabajadores: 4000 personas en España ','Pagina Web: www.pwc.es   https://jobsite.pwc.es','e-mail: jobsite.pwc@es.pwc.com','Actividad: Somos la mayor firma de servicios profesionales en el mundo, ofrecemos las soluciones que actualmente demandan las empresas ante los riesgos, retos y oportunidades que plantea la globalización de la economía mundial. En España, 4000 profesionales desarrollan su actividad en todas las áreas de negocio a través de una amplia red de oficinas que cubre todo el territorio nacional. ','Las principales líneas de negocio en las que trabajamos son:','Auditoria: El servicio de auditoria financiera está diseñado para ofrecer valor añadido al cliente y no se limita a emitir una opinión sobre las cuentas anuales de la empresa. Este valor añadido es diferencial y se caracteriza por: ','-  La realización de auditorías enfocadas al negocio. ','- La evaluación de la integración de los sistemas y procesos y de la idoneidad de los controles clave, realizando siempre un informe de control interno que identifica las deficiencias. ','- Una metodología de auditoría estandarizada y adaptada a las necesidades de empresas de diversos tamaños y actividad, con los objetivos de eficiencia y calidad. PwC ha obtenido el certificado de calidad ISO 9002 de AENOR para la actividad de auditoría de cuentas. ','Consultoría de Negocio: La división de Consultoría de Negocio de PwC ayuda a sus clientes, empresas y entidades públicas y privadas a conseguir y mantener mejoras de su rendimiento mediante el reforzamiento de la eficacia y eficiencia de sus procesos clave de negocio a lo largo del ciclo de vida de la compañía. Todo ello con un enfoque plenamente sectorial.','Asesoramiento Fiscal y Legal: PwC Tax & Legal Services agrupa en España a un equipo multidisciplinar de 900 abogados y asesores fiscales que forman parte de PwC, la mayor firma de servicios profesionales del mundo. PwC Tax & Legal Services se identifica en el mercado internacional por unas notas específicas que definen su liderazgo. Estas señas de identidad, que a su vez representan sus ventajas competitivas, pueden sintetizarse en los siguientes puntos: ','- Red internacional. ','- Equipos multidisciplinares ','- Especialización técnica y sectorial. ','- Apuesta por el middle-market y la empresa familiar. ','- Asesoramiento jurídico-tributario global e internacional. ','- Perspectiva deontológica. ','- Desarrollo online. ','Implantación geográfica: Tenemos una amplia red de oficinas, con un total de 20, con presencia en todo el territorio nacional: Alicante, Barcelona, Bilbao, La Coruña, Las Palmas, Logroño, Madrid, Málaga, Murcia, Oviedo, Palma de Mallorca, Pamplona, San Sebastián, Santa Cruz de Tenerife, Santander, Sevilla, Valencia, Vigo, Vitoria y Zaragoza.','Para participar en los procesos de selección es imprescindible inscribirse en nuestra Jobsite. Se puede acceder a través de www.pwc.es (apartado Jobsite) o desde https://jobsite.pwc.es','El proceso de selección de recién titulados es continuo durante el año y la incorporación de estos perfiles tiene lugar en el mes de Septiembre. Los procesos de beca son continuos durante todo el año en función de las necesidades de Negocio.'],
+			acceptsCV: true,
+		},
+		company28: {
+			name: 'Banco Sabadell',
+			icon: '/images/sabadell.png',
+			description: [],
+			acceptsCV: true,
+		},
+		company29: {
+			name: 'Tecnocom',
+			icon: '/images/tecnocom.png',
+			description: ['Tecnocom es una multinacional española que cotiza en la Bolsa de Madrid desde 1987. En 2006, Tecnocom inició un proceso Corporativo de expansión con el objetivo de llegar a ser líder en el mercado de la tecnología de la información español.','Tecnocom es una de las tres primeras empresas del sector de la tecnología de la información en España (alrededor de 400 millones de euros de ingresos) con una amplia experiencia en operaciones de elevado nivel tecnológico, como medios de pago bancarios o sistemas de automatización.','Esto hace que Tecnocom tenga una amplia oferta tecnológica y de soluciones de negocio (AMS, IMS, Consultoría de Negocio, BPO, Outsourcing, Servicios gestionados, Redes y la Integración de Sistemas) que cubre todos los sectores de ámbito público y Privado (Banca, Seguros, Industria, Telecomunicaciones, Media y Utilities y la Administración Pública).','Los valores que guían la forma de actuar de Tecnocom están basados en:',' 	Orientación al cliente: Centramos nuestro esfuerzo en la satisfacción del cliente, aportando soluciones innovadoras y un soporte técnico sobresaliente.',' 	Compromiso con la innovación: Promovemos la mejora continua y la innovación para alcanzar la máxima calidad desde criterios de rentabilidad y eficiencia.',' 	Compromiso con nuestros accionistas.',' 	Sostenibilidad: Desarrollamos nuestro negocio con un horizonte estratégico que trasciende los intereses económicos inmediatos, contribuyendo al desarrollo económico, medioambiental y social, tanto a corto como a largo plazo.',' 	Compromiso social: Mantenemos un firme compromiso con la defensa de un uso eficiente de Internet, haciendo especial hincapié en los colectivos de riesgos (menores).',' 	Personas: Captamos los mejores talentos y aseguramos oportunidades de desarrollo en base al mérito y a la aportación profesional.'],
 			acceptsCV: true,
 		},
 	},
