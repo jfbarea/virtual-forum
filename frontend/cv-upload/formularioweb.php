@@ -108,7 +108,7 @@
 	<P style="font-size:10px;margin-top:0px;">Los campos marcados con * son obligatorios</p>
 	
 	<hr>
-	
+<!--	
 	<p>
 	Empresas a las que desea enviar su CV:
 	</p>
@@ -120,11 +120,11 @@
 	<label class="etiqueta" id="ficherolbl" for="trazos">Trazos</label><input type="checkbox" name="trazos" value="trazos">
 	<label class="etiqueta" id="ficherolbl" for="hp">HP</label><input type="checkbox" name="hp" value="hp">
 	<label class="etiqueta" id="ficherolbl" for="kpmg">KPMG</label><input type="checkbox" name="kpmg" value="kpmg">
-	
+-->	
 	<div class="randomtext "><p> </p>
 		<br>
 		<p style="text-align: center;">Al pulsar el bot&oacute;n Enviar acepta las 
-		<a class="caption" href="condiciones.html" target="_blank" title="Condiciones Competici&oacute;n Ingenier&iacute;a BEST-Madrid">condiciones de uso de este servicio
+		<a class="caption" href="condiciones.html" style="color:white;" target="_blank" title="Condiciones Competici&oacute;n Ingenier&iacute;a BEST-Madrid">condiciones de uso de este servicio
 		</a>
 		</p>
 	</div>

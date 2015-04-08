@@ -4,7 +4,7 @@ var DATA = {
 		company0: {
 			name: 'BEST',
 			icon: '/images/BESTlogo.png',
-			description: ['Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'],
+			description: ['BEST, Board of European Students of Technology, is a constantly growing non-profit and non-political organisation. Since 1989 BEST has been providing communication, cooperation and exchange opportunities for students all over Europe.','96 Local BEST Groups in 33 countries are creating a growing, well-organised, powerful, young and innovative student network. More than 3350 members are involved in the day-to-day development of our services and almost one million students are reached through our events and initiatives.','BEST promotes „Empowered diversity“ and helps European students of technology become more internationally minded, by reaching a better understanding of European cultures and developing the ability to work and volunteer in a global environment. Technical students are given the opportunity through BEST courses and Engineering Competitions to broaden their knowledge in topics which complement their engineering education. This also create the context in which members of the organisation can share knowledge and gain experience by organising these events.','On the other hand, BEST also strives to broaden the job market horizons by giving opportunities through career related events (job fairs, company days, workshops) and an international career center. Last but not least, BEST has developed its own internal training system, to better sustain the organisation; therefore its members have also the opportunity to improve their skills and knowledge by participating in training events.'],
 			acceptsCV: true,
 		},
 		company12: {
@@ -22,7 +22,7 @@ var DATA = {
 		company14: {
 			name: 'BBVA',
 			icon: '/images/bbva.png',
-			description: ['La historia de BBVA es la historia de muchas personas que, desde mediados del siglo XIX, han formado parte de más de un centenar de entidades financieras que se han ido uniendo para ampliar su proyecto empresarial.','Hoy, en BBVA trabajamos por un futuro mejor para las personas, buscando relaciones duraderas con nuestros clientes que cambian la forma de ver el negocio. Como resultado de este trabajo, BBVA se ha convertido en todo un referente mundial y en uno de los bancos más reconocidos y premiados.','BBVA apuesta firmemente por el futuro y está siendo pionero en la adaptación a las necesidades que impone un mercado cada vez más global, en definitiva, a la banca del siglo XXI.','Una trayectoria de más de 150 años avala esta apuesta.'],
+			description: ['La historia de BBVA es la historia de muchas personas que, desde mediados del siglo XIX, han formado parte de más de un centenar de entidades financieras que se han ido uniendo para ampliar su proyecto empresarial.','Hoy, en BBVA trabajamos por un futuro mejor para las personas, buscando relaciones duraderas con nuestros clientes que cambian la forma de ver el negocio. Como resultado de este trabajo, BBVA se ha convertido en todo un referente mundial y en uno de los bancos más reconocidos y premiados.','BBVA apuesta firmemente por el futuro y está siendo pionero en la adaptación a las necesidades que impone un mercado cada vez más global, en definitiva, a la banca del siglo XXI.','Una trayectoria de más de 150 años avala esta apuesta.','Los perfiles técnicos como el tuyo son muy demandados en BBVA. Si quieres conocer nuestras ofertas tanto de trabajo como de prácticas visita nuestro portal de empleo y déjanos tu CV. Además, podremos informarte de primera mano en nuestro stand el día 16/04. Acércate a conocernos!','www.careers.bbva.com/espana'],
 			acceptsCV: false,
 		},
 		company15: {
@@ -33,7 +33,7 @@ var DATA = {
 		},
 		company16: {
 			name: 'EY',
-			icon: '/images/EY.png',
+			icon: '/images/ey.png',
 			description: ['En EY te ayudamos a alcanzar tu potencial y a conseguir tus objetivos, tanto personales como profesionales. Te ofrecemos experiencias gratificantes y retadoras que te mantienen motivado, dentro de un ambiente de integridad y trabajo en equipo, en algunas de las empresas más importantes del mundo.','Desde el primer día, te animamos a responsabilizarte de tu carrera y te damos apoyo en tu desarrollo profesional, con todas las herramientas que tenemos a nuestra disposición.','Contarás con la flexibilidad que necesitas para dedicar tu tiempo a lo que te importa, tanto en el trabajo como en tu vida personal. En EY, puedes ser tú mismo y expresar tu punto de vista con energía y entusiasmo, independientemente de la oficina del mundo en la que te encuentres','Es como marcas la diferencia'],
 			acceptsCV: false,
 		},
@@ -75,8 +75,8 @@ var DATA = {
 		},
 		company23: {
 			name: 'KIC InnoEnergy',
-			icon: '/images/company-logo.jpg',
-			description: 'Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.',
+			icon: '/images/kic.png',
+			description: [],
 			acceptsCV: true,
 		},
 		company24: {

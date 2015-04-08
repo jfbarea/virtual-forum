@@ -16,14 +16,14 @@
 $nombre = $_POST['nombre'];
 $apellidos = $_POST['apellidos'];
 $centro = $_POST['centro'];
-
-if(!empty($_POST['amadeus'])){$amadeus = $_POST['amadeus'];}else{$amadeus = '';}
-if(!empty($_POST['ibermatica'])){$ibermatica = $_POST['ibermatica'];}else{$ibermatica = '';}
-if(!empty($_POST['intalentia'])){$intalentia = $_POST['intalentia'];}else{$intalentia = '';}
-if(!empty($_POST['sisteplant'])){$sisteplant = $_POST['sisteplant'];}else{$sisteplant = '';}
-if(!empty($_POST['trazos'])){$trazos = $_POST['trazos'];}else{$trazos = '';}
-if(!empty($_POST['hp'])){$hp = $_POST['hp'];}else{$hp = '';}
-if(!empty($_POST['kpmg'])){$kpmg = $_POST['kpmg'];}else{$kpmg = '';}
+$rutacvs = 'cvs';
+//if(!empty($_POST['amadeus'])){$amadeus = $_POST['amadeus'];}else{$amadeus = '';}
+//if(!empty($_POST['ibermatica'])){$ibermatica = $_POST['ibermatica'];}else{$ibermatica = '';}
+//if(!empty($_POST['intalentia'])){$intalentia = $_POST['intalentia'];}else{$intalentia = '';}
+//if(!empty($_POST['sisteplant'])){$sisteplant = $_POST['sisteplant'];}else{$sisteplant = '';}
+//if(!empty($_POST['trazos'])){$trazos = $_POST['trazos'];}else{$trazos = '';}
+//if(!empty($_POST['hp'])){$hp = $_POST['hp'];}else{$hp = '';}
+//if(!empty($_POST['kpmg'])){$kpmg = $_POST['kpmg'];}else{$kpmg = '';}
 //$ibermatica = $_POST['ibermatica'];
 //$intalentia = $_POST['intalentia'];
 //$sisteplant = $_POST['sisteplant'];
@@ -31,7 +31,7 @@ if(!empty($_POST['kpmg'])){$kpmg = $_POST['kpmg'];}else{$kpmg = '';}
 //$hp = $_POST['hp'];
 
 //Variables para subir el fichero del CV
-$destino = 'cvs/';
+$destino = 'cvs';
 $tamano = $_FILES [ 'fichero' ][ 'size' ];    //tamaño
 $fichero = $_FILES [ 'fichero'] ['name'];     //nombre
 $tipo_archivo = $_FILES ['fichero'] ['type']; //tipo
@@ -55,51 +55,12 @@ else
 	$numero_aleatorio = mt_rand(0,10); 
 	//$nombre_a_subir = $numero_aleatorio . $fichero;
 	$nombre_a_subir = $nombre .' '. $apellidos . '.pdf';
-
-if(!$amadeus == '')
-{	
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . $amadeus . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido a Amadeus</p>";
+	
+	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . '/' . $centro . '/' . $nombre_a_subir);
+	echo "<p>Subido correctamente</p>";
 }	
 
-if(!$ibermatica == '')
-{	
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . $ibermatica . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido a Iberm&aacute;tica</p>";
-}	
 
-if(!$intalentia == '')
-{	
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . $intalentia . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido a Intalentia</p>";
-}	
-
-if(!$sisteplant == '')
-{	
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . $sisteplant . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido a Sisteplant</p>";
-}	
-
-if(!$trazos == '')
-{	
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . $trazos . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido a Trazos</p>";
-}	
-
-if(!$hp == '')
-{	
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . $hp . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido a HP</p>";
-}	
-
-if(!$kpmg == '')
-{	
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . $kpmg . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido a KPMG</p>";
-}	
-	echo "<h1>&#161;Enhorabuena&#33;</h1>";
-	echo "<h2>&#161;Archivo subido&#33;</h2>";
-}
 
 ?>
 
