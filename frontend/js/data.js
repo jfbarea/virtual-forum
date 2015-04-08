@@ -1,7 +1,7 @@
 
 var DATA = {
 	COMPANIES: {
-		company11: {
+		company0: {
 			name: 'BEST',
 			icon: '/images/BESTlogo.png',
 			description: ['Lorem fistrum caballo blanco caballo negroorl fistro ese que llega. Caballo blanco caballo negroorl caballo blanco caballo negroorl benemeritaar sexuarl está la cosa muy malar papaar papaar me cago en tus muelas benemeritaar. Diodenoo diodenoo hasta luego Lucas a wan ese que llega ahorarr a peich llevame al sircoo está la cosa muy malar te va a hasé pupitaa diodenoo. Al ataquerl a wan amatomaa tiene musho peligro diodenoo amatomaa ese hombree la caidita. Diodenoo te voy a borrar el cerito al ataquerl a gramenawer a gramenawer fistro ese que llega a wan.'],
