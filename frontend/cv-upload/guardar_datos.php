@@ -104,7 +104,7 @@ if(!$kpmg == '')
 ?>
 
 	<br>
-     <a href = "../index.php"> Volver atr&aacute;s </a>
+     <a href = "https://www.forumbestmadrid.org/subidaCV/formularioweb.php"> Volver atr&aacute;s </a>
   </p>
 </div>
 
