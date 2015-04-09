@@ -4,7 +4,7 @@
 		<ul class="collection" style="padding-top:0px;padding-bottom:0px;" >
 			<li class="collection-item waves-effect waves-orange col s12 m12 l12" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;" ng-repeat="(key,value) in companies" >
 				<a href="" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;" class="" ng-click="showCompany(key)">
-					<h3 style="font-size:1.2em;margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;">{{value.name}} {{activeComany.name}}</h3>
+					<h3 style="font-size:1.2em;margin-top:0px;margin-bottom:-5px;padding-top:0px;padding-bottom:0px;">{{value.name}} {{activeComany.name}}</h3>
 					<!--<span></span>-->
 				</a>
 			</li>
@@ -18,7 +18,7 @@
 				<div class="row center">
 					<img src="{{activeCompany.icon}}" class="responsive-img" style="height:150px;">
 				</div>
-				<h1 style="margin-top:-20px;" class="header center orange-text">{{activeCompany.name}}</h1>
+				<h1 style="margin-top:-20px;font-size:3em;" class="header center orange-text">{{activeCompany.name}}</h1>
 				<div class="row center">
 					<h5 class="header col s12 light" style="text-align:justify; padding-left:-60px;padding-right:-60px;font-size:1em" ng-repeat="parag in activeCompany.description">
 						{{parag}}
