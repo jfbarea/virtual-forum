@@ -30,7 +30,7 @@ app.config(['$routeProvider', function ($routeProvider) {
 		path: '/chats',
 		title: '',
 		templateUrl: 'views/chats.html',
-		controller: 'chats-controller'
+		controller: 'companies-controller'
 	}];
 
 	for (var i = 0; i < routes.length; i++){
