@@ -25,6 +25,12 @@ app.config(['$routeProvider', function ($routeProvider) {
 		title: '',
 		templateUrl: 'views/companies.html',
 		controller: 'companies-controller'
+	},
+		{
+		path: '/chats',
+		title: '',
+		templateUrl: 'views/chats.html',
+		controller: 'chats-controller'
 	}];
 
 	for (var i = 0; i < routes.length; i++){
