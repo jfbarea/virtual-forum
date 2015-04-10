@@ -120,7 +120,7 @@ var DATA = {
 		company29: {
 			name: 'Banco Sabadell',
 			icon: '/images/sabadell.png',
-			description: [],
+			description: ['Un proyecto de futuro en Banco Sabadell','Banco Sabadell es hoy la cuarta entidad financiera más importante del país. Una entidad que en su larga y exitosa trayectoria ha sabido combinar la tradición en la forma de hacer banca, la visión a largo plazo, el crecimiento y la innovación. Banco Sabadell tiene por delante un futuro retador, con un gran proyecto a largo plazo que contempla la transformación del propio negocio, la innovación y la expansión internacional, lo que se traduce en un amplio abanico de oportunidades y nuevos desafíos.','Nuestro programa de becas está diseñado para proporcionar experiencia práctica a los estudiantes.','Calendario','	• Periodo de solicitud: Septiembre/Octubre','	• Periodo de beca: Enero – Junio (500h)','Requisitos','	• Haber superado 50% créditos ó estar cursando estudio de posgrado/máster','	• Expediente académico','	• Inglés fluído','Convenio con principales Universidades y Escuelas de Negocio','Estudiantes de último curso y/o graduados en :','-Grado en Economía','-Grado en Administración de Empresas','-Grado en Estadística','-Grado en Derecho','-Grado en Física','-Grado en Informática','-Grado en Matemáticas ','-Ingeniería (Organización Industrial)','-Ingeniería en Electrónica','-Ingeniería en Telecomunicaciones ','-Inglés: Nivel C1 / C2','-Herramientas Office: Nivel avanzado','Se valorará Formación complementaria en: ','-Banca','-Finanzas','-Instrumentos Financieros','-Matemáticas para los Instrumentos Financieros','-MBA','-Postgrado Técnicas Cuantitativas para los Mercados Financieros'],
 			acceptsCV: true,
 		},
 		company30: {
