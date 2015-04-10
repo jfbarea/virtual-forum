@@ -49,16 +49,22 @@ else if( $tamano > 3145728) //Tamaño mayor de 3 MB
 }
 else
 {
+	$papeleta = substr(md5($fichero),-5);
 	//alimentamos el generador de aleatorios
 	mt_srand (time());
-	//generamos un número aleatorio
+	//generamos aleatorio
 	$numero_aleatorio = mt_rand(0,10); 
 	//$nombre_a_subir = $numero_aleatorio . $fichero;
-	$nombre_a_subir = $nombre .' '. $apellidos . '.pdf';
-	
+	$nombre_a_subir = $nombre .'_'. $apellidos . '.pdf';
+
 	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . '/' . $centro . '/' . $nombre_a_subir);
-	echo "<p>Subido correctamente</p>";
-}	
+
+	$content = " ". $nombre_a_subir ." ". $centro ." ". $numero_aleatorio ." ". $papeleta ."<br>";
+
+	file_put_contents('./ListaCvOnline.html', $content, FILE_APPEND | LOCK_EX);
+
+	echo "<p>Subido correctamente</p><br>Guarda el siguiente codigo y presentalo el d&iacute;a del Forum para solicitar una participaci&oacute;n extra con la que podr&aacute;s conseguir 1 beca para uno de los Cursos que sorteamos</p><br><strong>".$papeleta."<strong><br><br>";
+}
 
 
 
