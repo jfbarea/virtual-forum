@@ -9,7 +9,7 @@ var DATA = {
 		},
 		company11: {
 			name: 'Afi',
-			icon: '/images/afi.png',
+			icon: '/images/afi_logo.png',
 			description: [],
 			acceptsCV: false,
 		},
