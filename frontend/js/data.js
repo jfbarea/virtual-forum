@@ -9,7 +9,7 @@ var DATA = {
 		},
 		company11: {
 			name: 'Afi',
-			icon: '/images/afi_logo.png',
+			icon: 'https://www.afi.es/webAfi/rcs/logo.png',
 			description: [],
 			acceptsCV: false,
 		},
