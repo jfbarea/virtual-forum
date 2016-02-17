@@ -6,10 +6,10 @@
 		"multer": "~0.1.6"
 	},
 	"engines": {
-		"node": "0.10.25"
+		"node": "5.1.0"
 	},
 	"scripts": {
 		"test": "grunt test",
-		"start": "node api/server.js"
+		"start": "node backend/app.js"
 	}
 }
