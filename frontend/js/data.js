@@ -19,9 +19,8 @@ var DATA = {
 		},
 		company12: {
 			name: 'B-Lingual',
-			icon: '/images/B-Lingual_logo.jpg',
-			//Quieren el texto con formato!!//
-			description: ['Esta señora quiere el texto con formato'],
+			icon: '/images/B-lingual_logo.png',
+			description: ['Somos una <b>consolidada Agencia Internacional de Au Pairs</b> con oficina central en Madrid, que promociona el intercambio cultural y lingüístico en todo el mundo a través del Programa Au Pair. Más de media década de intermediaciones exitosas nos avala. Disponemos de <b>oficinas en Alemania e Inglaterra</b> y partners de confianza que nos representan en <b>Irlanda, Francia, Polonia, China, Australia y Canada</b> que dan apoyo permanente a nuestros candidatos.','El <b>Programa Au Pair</b> está diseñado para jóvenes a los que les gustan los niños, vivir en familia y que quieren aprender un idioma de manera rápida, segura y económica. Con estancias mínimas de 3 meses(Programa Au Pair de verano), para conseguir un nivel de idioma óptimo, recomendamos estancias de 6-12 meses.','Tras el programa Au Pair, nuestros jóvenes vuelven con su objetivo cumplido: aprender y mejorar un idioma y con el nivel necesario para incorporarse al mercado laboral. Además de experimentar la cultura del país, las vivencias y la experiencia adquirida aportarán al estudiante valiosos valores para su futuro profesional, tales como madurez, independencia, responsabilidad, resolución, etc...','Para más detalles visita:','http://www.b-lingualexperience.com/en050100_programsBIM.html','PERSPECTIVAS DE TRABAJO EN ALEMANIA: EL PROGRAMA AU PAIR COMO PRIMERA ETAPA E INMERSIÓN EN EL PAÍS DE ACOGIDA','El Programa Au Pair os brindará la oportunidad de <B>incorporaros al mercado laboral alemán de una manera segura y cómoda</b>, con una probabilidad de éxito alta y de forma casi inmediata.','En Forum BEST Madrid 2016 impartiremos una conferencia sobre las perspectivas de trabajo en Alemania y el Programa Au Pair como trampolín para acceder a él.','En esta feria, concederemos <b>descuentos</b> a los estudiantes que se registren y <b>sortearemos cursos de alemán intensivo en Frankfurt</b> y muchos premios más.','No dudes en pasarte por nuestro Stand, donde te espera el equipo de B-lingual Experience y Go Pair para informarte sobre nuestros programas.'],
 			profiles:['Estudiantes de últimos cursos con interés en aprender un idioma extrajero'],
 			link: 'www.b-lingualexperience.com',
 			hasLink: true,
@@ -30,7 +29,6 @@ var DATA = {
 		company13: {
 			name: 'Carrefour',
 			icon: '/images/Carrefour_logo.jpg',
-			//Falta poner las negritas en su sitio!//
 			description: ['En la actualidad, contamos con más de <b>470.000 empleados</b> en más de <b>30 países</b>. Somos la empresa <b>nº 1</b> de distribución <b>en Europa</b> y nº 2 en el mundo gracias a la pasión y el talento de nuestros empleados.','Somos de origen Francés y estamos presentes en España desde el año 1973, donde 40.000 personas componemos Carrefour y gestionamos 173 hipermercados, 115 supermercados y 114 tiendas de proximidad. Además, Carrefour cuenta con las líneas de negocio: Finanzas y Seguros, gasolineras, viajes, Carrefour móvil y entradas.','Nuestra ambición es seguir siendo el comerciante favorito <b>¿Cómo lo conseguimos?</b>','Siendo <b>innovadores</b> ofreciendo nuevo productos, apostando por la diversidad de formatos de tienda, incorporando nuevos servicios y para mejorar la vida de <b>nuestros clientes.</b>'],
 			profiles:['Ingenieros Agrónomos y Agrícolas','Ingenieros de Telecomunicaciones','Ingenieros Industriales'],
 			link: 'http://www.carrefour.es/trabaja-en- carrefour/mas-info/',
