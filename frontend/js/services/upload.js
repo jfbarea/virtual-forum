@@ -1,4 +1,4 @@
-myApp.service('fileUpload', ['$http', function ($http) {
+app.service('fileUpload', ['$http', function ($http) {
 	this.uploadFileToUrl = function(file, uploadUrl){
 		var fd = new FormData();
 		fd.append('file', file);
@@ -10,5 +10,5 @@ myApp.service('fileUpload', ['$http', function ($http) {
 		})
 		.error(function(){
 		});
-	};
+	}
 }]);

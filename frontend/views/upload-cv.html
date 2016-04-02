@@ -1,47 +1,6 @@
-<form 
-	id="uploadForm"
-	enctype="mutipart/form-data"
-	action="/api/uploadCV/"
-	method="post">
-
-	<input type="file" name="CV">
-	<input class='btn' type="submit" value="Subir CV" name="submit">
-</form>
-
 <div class="row">
-
-		<!-- <div class="input-field">
-		<div class="row">
-			<div class="input-field col s6">
-				<input name="first_name" type="text" class="validate">
-				<label for="first_name">Nombre</label>
-			</div>
-			<div class="input-field col s6">
-				<input name="last_name" type="text" class="validate">
-				<label for="last_name">Apellidos</label>
-			</div>
-			<div class="input-field col s6">
-				<input name="dni" type="number" class="validate">
-				<label for="dni">DNI</label>
-			</div>
-		</div>
-		<div class="row">
-			<select class="browser-default">
-				<option value="" disabled selected>Elige tu centro de estudios</option>
-				<option ng-repeat= "(key,school) in schools" value="{{key}}">{{school}}</option>
-			</select>
-			</div>
-		</div> -->
-
-	<form id        =  "uploadForm"
-     enctype   =  "multipart/form-data"
-     action    =  "/api/uploadCV/"
-     method    =  "post"
->
-<input type="file" name="CV" />
-<input type="submit" value="Upload Image" name="submit">
-</form>
-
+	<input type="file" file-model="myFile"/>
+	<button ng-click="uploadFile()">upload me</button>
 	<!-- <iframe src="https://www.forumbestmadrid.org/subidaCV/formularioweb.php" frameborder="0" style="height:490px; width:60%;margin-left:30%;margin-top:2%;" height="400" width="660" align="middle"></iframe> -->
 </div>
 <br><br>
