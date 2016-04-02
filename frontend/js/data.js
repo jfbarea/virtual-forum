@@ -41,7 +41,7 @@ var DATA = {
 			name: 'Efron Consulting',
 			icon: '',
 			description: ['Efron Consulting es una compañía de Consultoría, Tecnología y Outsourcing, que cuenta en la actualidad con más de 700 profesionales trabajando en proyectos nacionales e internacionales en los Sectores Financiero, Sanitario, Telecomunicaciones, Industria y Administración Pública, con oficinas en España (Madrid y Barcelona), Estados Unidos (Boston), Colombia (Bogotá y Medellín) y México (México DC y Santiago de Querétaro).','CALIDAD E INNOVACIÓN','En Efron promovemos la implantación de una estrategia de actuación para consolidar las buenas prácticas e incrementar la madurez de los servicios de nuestro catálogo, así como el conocimiento y la constante innovación de los servicios ofrecidos a cliente y mirando hacia el futuro diseñando y avanzando las soluciones que demandarán nuestros clientes y el mercado.','EQUIPO HUMANO','Apostamos por el talento y los profesionales y ofrecemos servicios profesionalizados, estandarizados y externalizados que acompañan al software en el camino que realiza, de forma controlada y sin errores.','COMPROMISO','Combinando tecnología, organización y procesos de negocio, apostamos por la especialización para ofrecer valor en un sector de gran competitividad.','Nuestro compromiso es con la eficiencia, la innovación y la calidad.'],
-			profiles['Ingenieros Informáticos','Ingenieros en sistemas de Telecomunicaciones','Graduados en Ingeniería del Software','Físicos','Matemáticos'],
+			profiles: ['Ingenieros Informáticos','Ingenieros en sistemas de Telecomunicaciones','Graduados en Ingeniería del Software','Físicos','Matemáticos'],
 			link: 'www.efronconsulting.com',
 			hasLink: true,
 			acceptsCV: true,
@@ -221,7 +221,8 @@ var DATA = {
     facultad_de_trabajo_social : 'Facultad de Trabajo Social',
     facultad_de_veterinaria : 'Facultad de Veterinaria',
     otros_centros : 'Otros Centros',
-	},','};
+	}
+};
 $(document).ready(function(){
 	// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
 	$('.modal-trigger').leanModal();
