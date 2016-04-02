@@ -106,6 +106,7 @@ var DATA = {
 			link:'http://www.ruralserviciosinformaticos.com/',
 			hasLink: true,
 			acceptsCV: true,
+			banner: ['<img src="images/rsi_banner.jpg" width="600">']
 		},
 		company28: {
 			name: 'RÜCKER LYPSA, SLU ( EDAG Group )',
@@ -124,6 +125,7 @@ var DATA = {
 			video:'https://www.youtube.com/watch?v=5F17ixk2UUQ',
 			hasLink: true,
 			acceptsCV: true,
+			banner: ['<img src="images/Schneider_banner.jpg" width="600">']
 		},
 	},
 	SCHOOLS: {
