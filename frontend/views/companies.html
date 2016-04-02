@@ -18,16 +18,29 @@
 				<div class="row center">
 					<img src="{{activeCompany.icon}}" class="responsive-img" style="height:150px;">
 				</div>
-				<h1 style="margin-top:-20px;font-size:3em;" class="header center orange-text">{{activeCompany.name}}</h1>
+				<h1 style="margin-top:-20px;font-size:3em;"
+				class="header center orange-text">{{activeCompany.name}}</h1>
 				<div class="row center">
-					<h5 class="header col s12 light" style="text-align:justify; padding-left:-60px;padding-right:-60px;font-size:1em" ng-repeat="parag in activeCompany.description">
-						{{parag}}
+					<h5 class="header col s12 light"
+					style="text-align:justify; padding-left:-60px;padding-right:-60px;font-size:1em"
+					ng-repeat="parag in activeCompany.description" >
+						<span ng-bind-html="parag | sanitize"></span>
 					</h5>
 				</div>
 				<div class="row center">
 					<h5 class="header col s12 light" style="text-align:justify; padding-left:-60px;padding-right:-60px;font-size:1em">
 						<a class="" href="http://{{activeCompany.link}}" target="_blank"> {{activeCompany.link}} </a>
 					</h5>
+				</div>
+				<iframe ng-show="activeCompany.video" width="680" height="480"
+				ng-src="{{activeCompany.video | trusted}}"
+				frameborder="0" allowfullscreen></iframe>
+				<div class="row center" ng-show="activeCompany.profiles">
+					<h1 style="margin-top:-20px;font-size:2em;"
+					class="header center">Perfiles buscados</h1>
+					<ul>
+						<li ng-repeat="profile in activeCompany.profiles">{{profile}}</li>
+					</ul>
 				</div>
 			</div>
 		</div>

@@ -46,4 +46,14 @@ app.config(['$routeProvider', function ($routeProvider) {
 	});
 }]);
 
+app.filter("sanitize", ['$sce', function($sce) {
+	return function(htmlCode){
+		return $sce.trustAsHtml(htmlCode);
+	}
+}]);
 
+app.filter('trusted', ['$sce', function ($sce) {
+	return function(url) {
+		return $sce.trustAsResourceUrl(url);
+	};
+}]);
