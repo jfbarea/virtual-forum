@@ -33,7 +33,7 @@
 					</h5>
 				</div>
 				<iframe ng-show="activeCompany.video" width="680" height="480"
-				ng-src="{{trustSrc(activeCompany.video)}}"
+				ng-src="{{activeCompany.video | trusted}}"
 				frameborder="0" allowfullscreen></iframe>
 				<div class="row center" ng-show="activeCompany.profiles">
 					<h1 style="margin-top:-20px;font-size:2em;"

@@ -51,3 +51,9 @@ app.filter("sanitize", ['$sce', function($sce) {
 		return $sce.trustAsHtml(htmlCode);
 	}
 }]);
+
+app.filter('trusted', ['$sce', function ($sce) {
+	return function(url) {
+		return $sce.trustAsResourceUrl(url);
+	};
+}]);
