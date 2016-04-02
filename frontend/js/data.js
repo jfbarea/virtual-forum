@@ -106,7 +106,7 @@ var DATA = {
 			name: 'LID Editorial',
 			icon: '/images/LID_logo.jpg',
 			description: ['LID Editorial, fundada en 1993, es un grupo empresarial líder en la creación y difusión de contenidos de empresa en diferentes formatos.', 'Publicamos libros en formato impreso y digital, editamos revistas académicas y profesionales, gestionamos una red de conferenciantes y una plataforma de formación online pionera en transformación digital (LIDlearning) y somos parte de Bluebottlebiz, la primera plataforma colaborativa de aprendizaje online con los mejores contenidos de empresa a nivel internacional.', 'LID Editorial cuenta con sedes en Madrid, Barcelona, Monterrey, México D.F., Bogotá, Buenos Aires, Shanghái, Londres, Nueva York y San Francisco.', 'LIDlearning es el servicio de formación online de LID Editorial, orientado a proporcionar a las empresas las competencias especializadas en transformación digital e innovación. Gestionamos los mejores contenidos de elearning de mano de los más destacados expertos en las nuevas tendencias tecnológicas. Cursos de empresa, prácticos y de calidad para la mejora personal y profesional.'],
-			profiles: ['Todos los perfiles.']
+			profiles: ['Todos los perfiles.'],
 			link: 'http://www.lideditorial.com/',
 			hasLink: true,
 			acceptsCV: true,
