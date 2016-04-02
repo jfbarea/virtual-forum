@@ -54,6 +54,7 @@ app.filter("sanitize", ['$sce', function($sce) {
 
 app.filter('trusted', ['$sce', function ($sce) {
 	return function(url) {
+		url = url.replace("watch?v=", "v/");
 		return $sce.trustAsResourceUrl(url);
 	};
 }]);
