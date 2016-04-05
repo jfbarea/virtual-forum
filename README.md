@@ -1,1 +1,1 @@
-*Virtual Forum BEST Madrid*
+#Virtual Forum BEST Madrid
