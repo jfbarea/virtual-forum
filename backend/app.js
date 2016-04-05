@@ -23,7 +23,7 @@ var upload = multer({ storage : storage}).single('CV');
 app.configure(function(){
 
 	// Basic configuration
-	app.set('port', 3000);
+	app.set('port', 10000);
 	app.use(express.bodyParser());
 	app.use(express.methodOverride());
 	app.use(app.router);
