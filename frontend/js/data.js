@@ -161,10 +161,11 @@ var DATA = {
 		},
 		company28: {
 			name: 'RÜCKER LYPSA, SLU ( EDAG Group )',
-			icon: '/images/rueckerlypsa_logo.jpg',
+			icon: '/images/RueckerLypsa_logo.jpg',
 			description: ['DESCRIPCIÓN:','As a leading global independent engineering partner for the international mobility industry, the EDAG Group, to which the Rücker Lypsa have also belonged since the beginning of the year 2014, develops ready-for-production solutions for automotive future. The industry focus is on the automotive and commercial vehicle industry.','The development of vehicles, derivates, modules and production plant is part of the service portfolio. The EDAG Group is organised into the lines of business Vehicle Engineering, Production Solutions and Electric/Electronics. Vehicle Engineering offers global engineering services and know-how along the entire automotive development process focusing on the manufacturers and suppliers of the automotive industry. The service portfolio covers the key aspects of vehicle development and ranges from styling, form-finding and modelling through package, body and interior/exterior design development to the entire functional integration of systems into the vehicle.','Production Solutions deals with the development of production facilities and factory concepts. The focus is on factory, process and plant development as well as automation engineering and product cost management.','<b>Rücker Lypsa S.L.U.</b>( currently employing more tan 500 professionals ) is the center of competence for styling, design and models of the whole group and is also leader in the Spanish market in design, engineering in powertrain, body and trim development as well as electric / electronic development ( vehicle electric/electronics, comfort and body electronics, driver assistance and safety systems, infotainment and telematics systems as well as electric/electronic system ).','Visit us in:'],
 			link:'www.rueckerlypsa.es',
 			hasLink: true,
+			video: 'https://drive.google.com/file/d/0B7Ix6GdT1rAwclBHd3k5ak9jbnc/preview',
 			acceptsCV: true,
 
 		},
