@@ -3,6 +3,7 @@
 var express = require('express');
 var path = require('path');
 var http = require('http');
+var exec = require('child_process').exec;
 var multer = require('multer');
 var fs = require('fs');
 
@@ -32,7 +33,7 @@ app.configure(function(){
 	app.use(express.static(path.join(__dirname, '..', 'frontend')));
 });
 
-app.post('/webhook', (req,res) => {
+app.post('/webhook/', (req,res) => {
 	exec(`cd /home/virtual-forumgi && git pull`,(error)=>{
 		if (error) return res.send(error);
 		res.send(200);
