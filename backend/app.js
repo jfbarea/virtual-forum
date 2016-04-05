@@ -32,7 +32,12 @@ app.configure(function(){
 	app.use(express.static(path.join(__dirname, '..', 'frontend')));
 });
 
-
+app.post('/webhook', (req,res) => {
+	exec(`cd /home/virtual-forumgi && git pull`,(error)=>{
+		if (error) return res.send(error);
+		res.send(200);
+	});
+});
 app.post('/api/uploadCV/', function (request, response) {
 	var newPath = '/home/jfcobarea/BEST/IT/uploads/uploadedFileName.pdf';
 	fs.rename(request.files.CV.path, newPath, function (err, data) {
