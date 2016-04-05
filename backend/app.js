@@ -34,7 +34,7 @@ app.configure(function(){
 });
 
 app.post('/webhook/', (req,res) => {
-	exec(`cd /home/virtual-forumgi && git pull`,(error)=>{
+	exec(`cd /home/virtual-forum && git pull && forever restartall`,(error)=>{
 		if (error) return res.send(error);
 		res.send(200);
 	});
