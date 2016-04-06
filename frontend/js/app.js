@@ -32,15 +32,21 @@ app.config(['$routeProvider', function ($routeProvider) {
 		templateUrl: 'views/chats.html',
 		controller: 'companies-controller'
 	}];
-
-	for (var i = 0; i < routes.length; i++){
-		var options = {
-			title: routes[i].title,
-			templateUrl:routes[i].templateUrl,
-			controller:routes[i].controller
-		};
-		$routeProvider.when(routes[i].path, options);
-	}
+	routes.forEach(function(route){
+		var options =  {
+			title: route.title,
+			templateUrl:route.templateUrl,
+			controller:route.controller
+		}
+		if(!settings.forumActive) {
+			options =  {
+				title: '',
+				templateUrl:'views/closed.html',
+				controller:route.controller
+			}
+		}
+		$routeProvider.when(route.path, options);
+	});
 	$routeProvider.otherwise({
 		redirectTo: '/'
 	});

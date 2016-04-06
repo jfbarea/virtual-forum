@@ -42,6 +42,13 @@
 						<li ng-repeat="profile in activeCompany.profiles">{{profile}}</li>
 					</ul>
 				</div>
+				<div class="row" ng-show="activeCompany.banner">
+					<ul>
+						<li ng-repeat="bann in activeCompany.banner">
+							<span ng-bind-html="bann | sanitize"></span>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
