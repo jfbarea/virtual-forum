@@ -32,19 +32,19 @@ $rutacvs = 'cvs';
 
 //Variables para subir el fichero del CV
 $destino = 'cvs';
-$tamano = $_FILES [ 'fichero' ][ 'size' ];    //tamaño
+$tamano = $_FILES [ 'fichero' ][ 'size' ];    //tamaï¿½o
 $fichero = $_FILES [ 'fichero'] ['name'];     //nombre
 $tipo_archivo = $_FILES ['fichero'] ['type']; //tipo
 
 //comprobacion de los datos recibidos
 if( ($nombre == '') || ($apellidos == '')||
-  ($centro == '')|| ($fichero == '')) //ver si todos los campos están rellenos
+  ($centro == '')|| ($fichero == '')) //ver si todos los campos estï¿½n rellenos
 {
 	echo '<h2>Debe rellenar todos los campos marcados con *</h2>';
 }
 
-else if( $tamano > 3145728) //Tamaño mayor de 3 MB
-{	
+else if( $tamano > 3145728) //Tamaï¿½o mayor de 3 MB
+{
 	echo "<h2>El tama&#241;o es superior al permitido (3MB)</h2>" ;
 }
 else
@@ -53,11 +53,12 @@ else
 	//alimentamos el generador de aleatorios
 	mt_srand (time());
 	//generamos aleatorio
-	$numero_aleatorio = mt_rand(0,10); 
+	$numero_aleatorio = mt_rand(0,10);
 	//$nombre_a_subir = $numero_aleatorio . $fichero;
+
 	$nombre_a_subir = $nombre .'_'. $apellidos . '.pdf';
 
-	copy( $_FILES [ 'fichero' ][ 'tmp_name' ], $destino . '/' . $centro . '/' . $nombre_a_subir);
+	copy( , $destino . '/' . $centro . '/' . $nombre_a_subir);
 
 	$content = " ". $nombre_a_subir ." ". $centro ." ". $numero_aleatorio ." ". $papeleta ."<br>";
 
@@ -74,4 +75,3 @@ else
      <a href = "https://www.forumbestmadrid.org/subidaCV/formularioweb.php"> Volver atr&aacute;s </a>
   </p>
 </div>
-

@@ -8,19 +8,21 @@
 	<input name="articleid" id="articleid" type="hidden" value="6" />
 	<input type="hidden" name="MAX_FILE_SIZE" value="0" />
 	<input name="condiciones" id="condiciones" type="hidden" value="Aceptadas4ee127a3e0c5d2.02961446" />
-	
+
 	<label class="etiqueta" id="NOMBRElbl" for="NOMBRE"> Nombre<sup style="color:red;">*</sup>:</label>
 	<input type="text" class="cuadrotexto" name="nombre" value=""  title="" />
 	<!--<p class="salto" />-->
 	&nbsp;
 	<label class="etiqueta" id="APELLIDOSlbl" for="APELLIDOS"> Apellidos<sup style="color:red;">*</sup>:</label>
 	<input type="text" class="cuadrotexto" name="apellidos" value="" title="" />
+	<label class="etiqueta" id="DNIbl" for="DNI"> DNI<sup style="color:red;">*</sup>:</label>
+	<input type="text" class="cuadrotexto" name="dni" value="" title="" />
 	<p class="salto" />
-	
+
 	<!--<p class="salto" />-->
 
 	<p class="salto" />
-	
+
 	<label class="etiqueta" id="ESTUDIOSlbl" for="centro"> Centro<sup style="color:red;">*</sup>:</label>
 	<select name="centro" size="" >
 		<option value="-1"></option>
@@ -76,7 +78,7 @@
 		<option value="Facultad_de_Ciencias_Quimicas">Facultad de Ciencias Qu&iacute;micas</option>
 		<option value="Facultad_de_Comercio_y_Turismo">Facultad de Comercio y Turismo</option>
 		<option value="Facultad_de_Derecho">Facultad de Derecho</option>
-		<option value="Facultad_de_Educacion_Centro_de_Formacion_del_Profesorado">Facultad de Educaci&oacute;n – Centro de Formaci&oacute;n del Profesorado</option>
+		<option value="Facultad_de_Educacion_Centro_de_Formacion_del_Profesorado">Facultad de Educaci&oacute;n ï¿½ Centro de Formaci&oacute;n del Profesorado</option>
 		<option value="Facultad_de_Enfermeria_Fisioterapia_y_Podologia">Facultad de Enfermer&iacute;a, Fisioterapia y Podolog&iacute;a</option>
 		<option value="Facultad_de_Estudios_Estadisticos">Facultad de Estudios Estad&iacute;sticos</option>
 		<option value="Facultad_de_Farmacia">Facultad de Farmacia</option>
@@ -93,42 +95,42 @@
 		<option value="Otros_Centros">Otros Centros</option>
 	</select>
 	<p class="salto" />
-	
+
 
 	<!--<p class="salto" />-->
 
 	<p class="salto" />
 	<br>
-	
-	
+
+
 	<label class="etiqueta" id="ficherolbl" for="fichero"> Curr&iacute;culum (CV)<sup style="color:red;">*</sup>:</label>
 	<input name="fichero" type="file"/>
 	<P style="font-size:10px;margin-left:120px;margin-top:0px;">Archivo en PDF, m&aacute;ximo 3MB </p>
-	<p class="salto" />	
+	<p class="salto" />
 	<P style="font-size:10px;margin-top:0px;">Los campos marcados con * son obligatorios</p>
-	
+
 	<hr>
-<!--	
+<!--
 	<p>
 	Empresas a las que desea enviar su CV:
 	</p>
-	
-	<label class="etiqueta" id="ficherolbl" for="amadeus">Amadeus</label><input type="checkbox" name="amadeus" value="amadeus"> 
+
+	<label class="etiqueta" id="ficherolbl" for="amadeus">Amadeus</label><input type="checkbox" name="amadeus" value="amadeus">
 	<label class="etiqueta" id="ficherolbl" for="ibermatica">Iberm&aacute;tica</label><input type="checkbox" name="ibermatica" value="ibermatica">
 	<label class="etiqueta" id="ficherolbl" for="intalentia">Intalentia</label><input type="checkbox" name="intalentia" value="intalentia">
 	<label class="etiqueta" id="ficherolbl" for="sisteplant">Sisteplant</label><input type="checkbox" name="sisteplant" value="sisteplant">
 	<label class="etiqueta" id="ficherolbl" for="trazos">Trazos</label><input type="checkbox" name="trazos" value="trazos">
 	<label class="etiqueta" id="ficherolbl" for="hp">HP</label><input type="checkbox" name="hp" value="hp">
 	<label class="etiqueta" id="ficherolbl" for="kpmg">KPMG</label><input type="checkbox" name="kpmg" value="kpmg">
--->	
+-->
 	<div class="randomtext "><p> </p>
 		<br>
-		<p style="text-align: center;">Al pulsar el bot&oacute;n Enviar acepta las 
+		<p style="text-align: center;">Al pulsar el bot&oacute;n Enviar acepta las
 		<a class="caption" href="condiciones.html" style="color:white;" target="_blank" title="Condiciones Competici&oacute;n Ingenier&iacute;a BEST-Madrid">condiciones de uso de este servicio
 		</a>
 		</p>
 	</div>
-	
+
 	<div class="btnenviar">
 		<input name="submit_bt" id="submit_bt" type="submit" value="ENVIAR"  />
 	</div>
