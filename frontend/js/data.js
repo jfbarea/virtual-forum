@@ -9,7 +9,7 @@ var DATA = {
 		},
 		company11: {
 			name: 'BBVA',
-			icon: 'images/bbva_logo.png',
+			icon: 'online/#/images/bbva_logo.png',
 			description: ['La historia de BBVA es la historia de muchas personas que, desde mediados del siglo XIX, han formado parte de más de un centenar de entidades financieras que se han ido uniendo para ampliar su proyecto empresarial','Hoy, en BBVA trabajamos por un futuro mejor para las personas, buscando relaciones duraderas con nuestros clientes que cambian la forma de ver el negocio. Como resultado de este trabajo, BBVA se ha convertido en todo un referente mundial y en uno de los bancos más reconocidos y premiados.','BBVA apuesta firmemente por el futuro y está siendo pionero en la adaptación a las necesidades que impone un mercado cada vez más global, en definitiva, a la banca del siglo XXI.','Una trayectoria de más de 150 años avala esta apuesta.'],
 			profiles: ['Carreras técnicas superiores: Ingenierías, Matemáticas, Estadística, Física, etc','Economía y ADE'],
 			link: 'https://careers.bbva.com/espana/',
