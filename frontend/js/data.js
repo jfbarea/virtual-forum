@@ -9,7 +9,7 @@ var DATA = {
 		},
 		company11: {
 			name: 'BBVA',
-			icon: 'online/#/images/bbva_logo.png',
+			icon: '/images/bbva_logo.png',
 			description: ['La historia de BBVA es la historia de muchas personas que, desde mediados del siglo XIX, han formado parte de más de un centenar de entidades financieras que se han ido uniendo para ampliar su proyecto empresarial','Hoy, en BBVA trabajamos por un futuro mejor para las personas, buscando relaciones duraderas con nuestros clientes que cambian la forma de ver el negocio. Como resultado de este trabajo, BBVA se ha convertido en todo un referente mundial y en uno de los bancos más reconocidos y premiados.','BBVA apuesta firmemente por el futuro y está siendo pionero en la adaptación a las necesidades que impone un mercado cada vez más global, en definitiva, a la banca del siglo XXI.','Una trayectoria de más de 150 años avala esta apuesta.'],
 			profiles: ['Carreras técnicas superiores: Ingenierías, Matemáticas, Estadística, Física, etc','Economía y ADE'],
 			link: 'https://careers.bbva.com/espana/',
@@ -135,7 +135,7 @@ var DATA = {
 		},
 		company25: {
 			name: 'Page Personnel',
-			icon: '/images/pagepersonnel_logo.jpg',
+			icon: '/images/PagePersonnel_logo.jpg',
 			description: ['Page Personnel, perteneciente a PageGroup, es la consultora líder en selección y trabajo temporal especializado. Identificamos y seleccionamos perfiles intermedios y personal de apoyo cualificado para posiciones temporales e indefinidas a través de nuestros consultores especializados. Nuestra misión es satisfacer las necesidades de selección de nuestros clientes y ayudar en el desarrollo profesional de nuestros candidatos.','Estamos especializados en 15 áreas, entre ellas destacamos Tecnologías de la información e Ingenieros y Técnicos. Los perfiles más habituales que cubrimos en el área tecnológica son:',' <li>Desarrolladores</li> <li>Jefaturas de Proyecto</li><li>Administradores de sistemas</li><li>Expertos en BBDD</li>','Dentro del área ingenieril, nuestros posiciones suelen ser:','<li>Supply Chain: Logística, compras y almacén</li><li>Oficina Técnica: Estudios, presupuestos, I+D y proyectos</li><li>Procesos: Mantenimiento, calidad y producción</li>','Visítanos en:'],
 			link:'www.pagepersonnel.es',
 			video:'https://www.youtube.com/watch?v=itCyUfV4EiA',
