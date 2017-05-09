@@ -57,6 +57,23 @@ var DATA = {
 			hasLink: true,
 			acceptsCV: false,
 		},
+		company15: {
+			name: 'COLEGIO OFICIAL DE INGENIEROS DE MINAS DEL CENTRO DE ESPAÑA', 
+			icon: '/images/logocoimce.jpg',
+			description: ['Conforme a la ley 2/1974 de colegios profesionales, para ejercer la profesión de ingeniero de minas , tanto por cuenta propia como ajena, o como funcionaro de la administración, es necesario estar colegiado en un colegio oficial de esta especialidad. El Colegio Oficial de Ingenieros de Minas del Centro de España ofrece, adicionalmente a sus colegiados una multitud de servicios que contribuyen a simplificar a diario gran parte de su actividad'],
+			acceptsCV: false,
+			link: 'http://coimce.com',
+			hasLink: true,
+		},
+		company16: {
+			name: 'ENDESA CREEMOS EN TU ENERGÍA',
+			icon: '/images/endesalogo.png',
+			description: ['"Confianza, innovación, responsabilidad y proactividad. Estos valores reflejan quiénes somos y en qué creemos. Estos son los principios que deben guiarnos todos los días si queremos llevar adelante la transformación que iniciamos". Francesco Starace, Consejero Delegado y Director General del Grupo Enel.', '<b>Confianza:</b> Actuamos de manera competente, honesta y transparente, para ganarnos la confianza de nuestros compañeros, clientes y colaboradores externos, valorando las diferencias individuales.','<b>Innovación: </b>Vivimos y trabajamos con curiosidad, nos esforzamos por ir más allá de lo habitual y superamos nuestros temores, para abrir la energía a nuevos usos, tecnologías y personas. Aprendiendo de los errores igual que de los aciertos.', '<b>Responsabilidad: </b> Cada uno de nosotros es responsable del éxito del grupo, a todos los niveles. Ponemos nuestra energía al servicio de las personas para mejorar su vida y hacerla más sostenible.', '<b>Proactividad:</b> Nos hacemos cargo de nuestro trabajo en primera persona. Interpretamos continuamente los escenarios y retos mundiales para adelantarnos a los cambios, redefiniendo las prioridades si el contexto lo requiere.'],
+			acceptsCV: true,
+			profiles: ['INGENIEROS', 'ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS'],
+			link: 'http://endesa.com',
+			hasLink: true,
+		},
 	},
 	SCHOOLS: {
 		etsi_aeronautica_y_del_espacio : 'ETSI Aeronaútica y del Espacio',
